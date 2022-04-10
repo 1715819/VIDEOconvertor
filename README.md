@@ -22,7 +22,7 @@
 <p><a href="https://t.me/DroneBots"> <img src="https://img.shields.io/badge/Telegram-Join%20Channel-gold?style=for-the-badge&logo=telegram" width="220""/></a></p>
 
 # Main branch
-Main branch is to deploy a bot for your `personal` use only. For extra features deploy from `public` branch.
+Main branch is to deploy a bot for your `personal` use only. Deploy from `public` branch if you need bot for your channel. 
 
 VARIABLES required are:
 
@@ -34,22 +34,29 @@ VARIABLES required are:
 
 * `BOT_UN` - Username of yout Bot.
 
-Deploy your own bot on heroku.
+# Deploy
 
-`Warning` - There are two different branches available, look(above) which one you want to deploy. Go to [public](github.com/vasusen-code/videoconvertor) branch if you need bot for your `channel`.
+Deploy your bot on `heroku`
+  
+`Warning` - There are two different branches available, go to [public](github.com/vasusen-code/videoconvertor) branch if you need bot for your `channel`.
   
 `Fork and Click on Deploy in your fork`
 <p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="250""/></a></p>
 
 `Alternate way:`
 
-If facing any problem while deploying through heroku button, just fork and `deploy manually` by creating a new app in heroku.
+If you are facing any problem while deploying through heroku button, just fork and `deploy manually` by creating a new app in heroku.
+
+Add these buildpacks if you are deploying manually (Read tutorial) : 
+
+- `https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git`
+- `heroku/python`
 
 <p><a href="https://telegra.ph/Manual-Deploy-Video-Convertor-12-31"> <img src="https://img.shields.io/badge/Manual%20Deploy%20Tutorial-grey?style=for-the-badge&logo=telegraph" width="250""/></a></p>
 
-Add this buildpack if deploying manually (Read tutorial) : 
-- `https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git`
-- `heroku/python`
+Deploy your bot on `Okteto`
+  
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
 
 LICENSE:
 
